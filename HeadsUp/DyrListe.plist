@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Oveja</string>
+	<string>Reno</string>
+	<string>Puma</string>
+	<string>Caballo</string>
+	<string>Cabra</string>
+	<string>Gato</string>
+	<string>Perro</string>
+	<string>Ratón</string>
+	<string>Avestruz</string>
+	<string>Gallina</string>
+	<string>León</string>
+	<string>Tigre</string>
+	<string>Serpiente</string>
+	<string>Alce</string>
+	<string>Tapir</string>
+	<string>Lobo</string>
+	<string>Oso</string>
+	<string>Tortuga</string>
+	<string>Águila</string>
+	<string>Gaviota</string>
+	<string>Jirafa</string>
+	<string>Cebra</string>
+	<string>Cocodrilo</string>
+	<string>Vaca</string>
+	<string>Buey</string>
+	<string>Venado</string>
+	<string>Lagarto</string>
+	<string>Llama</string>
+	<string>Iguana</string>
+	<string>Erizo</string>
+	<string>Murciélago</string>
+	<string>Jabalí</string>
+	<string>Ballena</string>
+	<string>Comadreja</string>
+	<string>Visón</string>
+	<string>Tucán</string>
+	<string>Nutria</string>
+	<string>Oso Polar</string>
+	<string>Morsa</string>
+	<string>Conejo</string>
+	<string>Castor</string>
+	<string>Rata</string>
+	<string>Mapache</string>
+	<string>Pato</string>
+	<string>Elefante</string>
+	<string>Hiena</string>
+	<string>Canguro</string>
+	<string>Armadilllo</string>
+	<string>Antílope</string>
+	<string>Caimán</string>
+	<string>Zorro</string>
+	<string>Lince</string>
+	<string>Pelícano</string>
+	<string>Chimpancé</string>
+	<string>Langosta</string>
+	<string>Paloma</string>
+	<string>Cuervo</string>
+	<string>Rana</string>
+	<string>Mosca</string>
+	<string>Mosquito</string>
+	<string>Avispa</string>
+	<string>Rinoceronte</string>
+	<string>Tiburón</string>
+	<string>Zorrillo</string>
+	<string>Pavo</string>
+	<string>Buitre</string>
+	<string>Hormiga</string>
+	<string>Camello</string>
+	<string>Pollo</string>
+	<string>Dinosaurio</string>
+	<string>Delfín</string>
+	<string>Hámster</string>
+	<string>Colibrí</string>
+	<string>Medusa</string>
+	<string>Chigüire</string>
+	<string>Burro</string>
+	<string>Mejillón</string>
+	<string> Oso Panda</string>
+	<string>Salmón</string>
+	<string>Caracol</string>
+	<string>Cisne</string>
+	<string>Pájaro Carpintero</string>
+	<string>Chacal</string>
+	<string>Gorila</string>
+	<string>Loro</string>
+</array>
+</plist>

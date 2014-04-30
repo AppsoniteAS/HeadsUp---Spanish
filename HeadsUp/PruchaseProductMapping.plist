@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>VM</key>
+	<dict>
+		<key>price</key>
+		<string>$1.99</string>
+		<key>id</key>
+		<string>FotballVM_spa</string>
+	</dict>
+	<key>90</key>
+	<dict>
+		<key>price</key>
+		<string>$1.99</string>
+		<key>id</key>
+		<string>90_tallet_spa</string>
+	</dict>
+	<key>80</key>
+	<dict>
+		<key>price</key>
+		<string>$1.99</string>
+		<key>id</key>
+		<string>80_tallet_spa</string>
+	</dict>
+	<key>70</key>
+	<dict>
+		<key>price</key>
+		<string>$1.99</string>
+		<key>id</key>
+		<string>70_tallet_spa</string>
+	</dict>
+	<key>Voksne</key>
+	<dict>
+		<key>price</key>
+		<string>$3.99</string>
+		<key>id</key>
+		<string>ForVoksne_spa</string>
+	</dict>
+	<key>HP</key>
+	<dict>
+		<key>price</key>
+		<string>$1.99</string>
+		<key>id</key>
+		<string>Historiske_personer_spa</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Consumables</key>
+	<dict/>
+	<key>Non-Consumables</key>
+	<array>
+		<string>70_tallet_spa</string>
+		<string>80_tallet_spa</string>
+		<string>90_tallet_spa</string>
+		<string>ForVoksne_spa</string>
+		<string>FotballVM_spa</string>
+		<string>Historiske_personer_spa</string>
+	</array>
+	<key>Subscriptions</key>
+	<dict/>
+</dict>
+</plist>

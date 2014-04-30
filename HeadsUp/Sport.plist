@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Esquí </string>
+	<string>Fútbol Americano</string>
+	<string>Biatlón</string>
+	<string>Bádminton </string>
+	<string>Tenis</string>
+	<string>Ping Pong</string>
+	<string>Natación</string>
+	<string>Ciclismo</string>
+	<string>Balonmano</string>
+	<string>Nado Sincronizado</string>
+	<string>Maratón</string>
+	<string>Yoga</string>
+	<string>Levantamiento de Pesas</string>
+	<string>Lucha</string>
+	<string>Patinaje Artístico</string>
+	<string>Hockey sobre Hielo</string>
+	<string>Patinaje sobre Hielo</string>
+	<string>Salto de Altura</string>
+	<string>Salto de Esquí</string>
+	<string>Salto Largo</string>
+	<string>Salto Ecuestre</string>
+	<string>Karate</string>
+	<string>Boxeo</string>
+	<string>Vela </string>
+	<string>Béisbol</string>
+	<string>Baquetbol</string>
+	<string>Fútbol</string>
+	<string>Golf</string>
+	<string>Arco y Flecha</string>
+	<string>Voleibol de Playa</string>
+	<string>Judo</string>
+	<string>Culturismo</string>
+	<string>Bolos</string>
+	<string>Canotaje </string>
+	<string>Animación</string>
+	<string>Críquet </string>
+	<string>Dardo</string>
+	<string>Taekwondo</string>
+	<string>Esgrima</string>
+	<string>Gimnasia</string>
+	<string>Hockey hierba</string>
+	<string>Judo</string>
+	<string>Motorcross</string>
+	<string>Parapente</string>
+	<string>Squash</string>
+	<string>Rodeo</string>
+	<string>Remo</string>
+	<string>Rugby</string>
+	<string>Buceo</string>
+	<string>Clavado </string>
+	<string>Snowboarding</string>
+	<string>Skateboarding</string>
+	<string>Billar</string>
+	<string>Surfismo</string>
+	<string>Tenis</string>
+	<string>Triatlón</string>
+	<string>Salto de Trampolín </string>
+	<string>Waterpolo</string>
+	<string>Polo</string>
+	<string>Windsurfing</string>
+	<string>BMX</string>
+	<string>Tiro deportivo</string>
+	<string>Pulsear</string>
+	<string>Ajedrez</string>
+	<string>Crocket</string>
+	<string>Ciclismo de montaña</string>
+	<string>Fútbol sala -</string>
+	<string>Orientación</string>
+	<string>Marcha Atlética</string>
+	<string>Paintball</string>
+	<string>Carreras de Vallas</string>
+	<string>Tenis de mesa</string>
+	<string> Golf en Miniatura</string>
+	<string>Ciclismo en Pista</string>
+	<string>Escalar Montañas</string>
+	<string>Bailar Salsa</string>
+	<string>Gimnasia Rítmica</string>
+	<string>Pesca Deportiva</string>
+	<string>Sumo</string>
+	<string>Lucga</string>
+	<string>Tango</string>
+	<string>salto Triple</string>
+	<string>Ultramaratón </string>
+	<string>Wakeboarding</string>
+	<string>Piragüismo</string>
+	<string>Lacrosse</string>
+</array>
+</plist>
