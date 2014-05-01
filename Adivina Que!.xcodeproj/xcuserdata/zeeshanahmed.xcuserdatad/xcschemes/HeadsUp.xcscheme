@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0510"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,7 +17,7 @@
                BlueprintIdentifier = "A4216E5D18A11D8900C500C4"
                BuildableName = "HeadsUp.app"
                BlueprintName = "HeadsUp"
-               ReferencedContainer = "container:Gjett Hva.xcodeproj">
+               ReferencedContainer = "container:Adivina Que!.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "A4216E5D18A11D8900C500C4"
             BuildableName = "HeadsUp.app"
             BlueprintName = "HeadsUp"
-            ReferencedContainer = "container:Gjett Hva.xcodeproj">
+            ReferencedContainer = "container:Adivina Que!.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -54,7 +54,7 @@
             BlueprintIdentifier = "A4216E5D18A11D8900C500C4"
             BuildableName = "HeadsUp.app"
             BlueprintName = "HeadsUp"
-            ReferencedContainer = "container:Gjett Hva.xcodeproj">
+            ReferencedContainer = "container:Adivina Que!.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -72,7 +72,7 @@
             BlueprintIdentifier = "A4216E5D18A11D8900C500C4"
             BuildableName = "HeadsUp.app"
             BlueprintName = "HeadsUp"
-            ReferencedContainer = "container:Gjett Hva.xcodeproj">
+            ReferencedContainer = "container:Adivina Que!.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
