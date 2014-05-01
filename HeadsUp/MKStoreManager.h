@@ -77,6 +77,9 @@
 - (void) restorePreviousTransactionsOnComplete:(void (^)(void)) completionBlock
                                        onError:(void (^)(NSError* error)) errorBlock;
 
+
+-(void)requestProductData;
+
 // For consumable support
 - (BOOL) canConsumeProduct:(NSString*) productName quantity:(int) quantity;
 - (BOOL) consumeProduct:(NSString*) productName quantity:(int) quantity;

@@ -169,7 +169,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "723"
             endingLineNumber = "723"
-            landmarkName = "-sendFacebookRequest"
+            landmarkName = "-renewPermissions"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -201,7 +201,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "556"
             endingLineNumber = "556"
-            landmarkName = "-playThisDeckAgain:"
+            landmarkName = "-loadDeck:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

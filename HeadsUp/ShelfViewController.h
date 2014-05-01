@@ -56,6 +56,8 @@
     
     BOOL isProductsFetched;
     IBOutlet UIActivityIndicatorView *spinner;
+    
+    BOOL isProductsReturnNull;
 }
 
 @property (strong, nonatomic) IBOutlet UIView *viewHeader;

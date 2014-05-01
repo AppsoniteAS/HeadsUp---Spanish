@@ -9,6 +9,7 @@
 #import "ShelfViewController.h"
 #import "KxMenu.h"
 #import "MKStoreManager.h"
+#import "Reachability.h"
 
 @interface ShelfViewController ()
 
@@ -34,35 +35,24 @@
     return self;
 }
 
-- (IBAction)restorePurchase:(id)sender {
-    [self checkPurchasedItems];
-}
-
-- (void) checkPurchasedItems
+- (IBAction)restorePurchase:(id)sender
 {
-    NSLog(@"CheckingPurchasedItems");
-    [[SKPaymentQueue defaultQueue] restoreCompletedTransactions];
-}// Call This Function
-
-//Then this delegate Function Will be fired
-- (void) paymentQueueRestoreCompletedTransactionsFinished:(SKPaymentQueue *)queue
-{
-    purchasedItemIDs = [[NSMutableArray alloc] init];
-    
-    NSLog(@"received restored transactions: %lu", (unsigned long)queue.transactions.count);
-    for (SKPaymentTransaction *transaction in queue.transactions)
-    {
-        NSString *productID = transaction.payment.productIdentifier;
-        [purchasedItemIDs addObject:productID];
-    }
-    
+    [[MKStoreManager sharedManager] restorePreviousTransactionsOnComplete:^(void)
+     {
+         [self successSharing:@"Restore."];
+         
+     }onError:^(NSError *error)
+     {
+         [self errorPurchasing:@"Restore Failed."];
+     }];
 }
-
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    [self loadReachability];
     
     arrayProducts =  [[NSArray alloc] initWithArray:[[self storeKitItems] objectForKey:@"Non-Consumables"]];
     
@@ -113,19 +103,60 @@
     [self performSelectorOnMainThread:@selector(afterFinish) withObject:nil waitUntilDone:NO];
 }
 
+-(void)loadReachability
+{
+    // Allocate a reachability object
+    Reachability* reach = [Reachability reachabilityWithHostname:@"www.google.com"];
+    
+    // Tell the reachability that we DON'T want to be reachable on 3G/EDGE/CDMA
+    reach.reachableOnWWAN = NO;
+    
+    // Here we set up a NSNotification observer. The Reachability that caused the notification
+    // is passed in the object parameter
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(reachabilityChanged:)
+                                                 name:kReachabilityChangedNotification
+                                               object:nil];
+    
+    [reach startNotifier];
+}
+
+-(void)reachabilityChanged:(NSNotification *)notification
+{
+    Reachability * reach = [notification object];
+    
+    if([reach isReachable])
+    {
+        NSLog(@"Reachable");
+        
+        if (isProductsReturnNull)
+        {
+            [[MKStoreManager sharedManager] requestProductData];
+        }
+    }
+}
+
 -(void)inAppProductsFetched:(NSNotification *)notification
 {
-    NSLog(@"Fetched ");
-    isProductsFetched = YES;
-    self.arrayFetched = [[NSArray alloc] initWithArray:[notification object]];
-    
-    if (isZoomIn)
+    if ([[notification object] isKindOfClass:[NSArray class]])
     {
-        NSIndexPath *indexOfCurrentCell = [gridCards indexPathForCell:currentCellInZoom];
-        [self setPriceForPurchases:currentCellInZoom _indexRow:indexOfCurrentCell.row];
+        NSLog(@"Fetched ");
+        isProductsFetched = YES;
+        isProductsReturnNull = NO;
+        self.arrayFetched = [[NSArray alloc] initWithArray:[notification object]];
         
-        [spinner stopAnimating];
-        [spinner removeFromSuperview];
+        if (isZoomIn)
+        {
+            NSIndexPath *indexOfCurrentCell = [gridCards indexPathForCell:currentCellInZoom];
+            [self setPriceForPurchases:currentCellInZoom _indexRow:indexOfCurrentCell.row];
+            
+            [spinner stopAnimating];
+            [spinner removeFromSuperview];
+        }
+    }
+    else
+    {
+        isProductsReturnNull = YES;
     }
 }
 

@@ -106,7 +106,6 @@
 		1AD6AC27190FB928002F69CA /* Musikk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6AC26190FB928002F69CA /* Musikk.plist */; };
 		1AD6AC2F190FD385002F69CA /* DyrListe.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6AC2E190FD385002F69CA /* DyrListe.plist */; };
 		1AD6AC31190FD39D002F69CA /* Hva.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6AC30190FD39D002F69CA /* Hva.plist */; };
-		1AF4E67F18FF22A500D7DB16 /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF4E67E18FF22A500D7DB16 /* RevMobAds.framework */; };
 		1AF4E6CB1904FC4C00D7DB16 /* btn_feedback_iPad_wt.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF4E6C61904FC4C00D7DB16 /* btn_feedback_iPad_wt.png */; };
 		1AF4E6CD1904FC4C00D7DB16 /* btn_om_iPad_wt.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF4E6C81904FC4C00D7DB16 /* btn_om_iPad_wt.png */; };
 		1AF4E6CE1904FC4C00D7DB16 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF4E6C91904FC4C00D7DB16 /* play.png */; };
@@ -115,6 +114,8 @@
 		A411E5C018A2ACA70074521F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A411E5BF18A2ACA70074521F /* QuartzCore.framework */; };
 		A411E5C218A2ACAC0074521F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A411E5C118A2ACAC0074521F /* AVFoundation.framework */; };
 		A411E5C418A2ACB90074521F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A411E5C318A2ACB90074521F /* CoreMedia.framework */; };
+		A41A9A991911FB3900F7074E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A41A9A981911FB3900F7074E /* Reachability.m */; };
+		A41A9A9B1911FC5000F7074E /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41A9A9A1911FC5000F7074E /* RevMobAds.framework */; };
 		A4216E6218A11D8900C500C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4216E6118A11D8900C500C4 /* Foundation.framework */; };
 		A4216E6418A11D8900C500C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4216E6318A11D8900C500C4 /* CoreGraphics.framework */; };
 		A4216E6618A11D8900C500C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4216E6518A11D8900C500C4 /* UIKit.framework */; };
@@ -458,7 +459,6 @@
 		1AD6AC26190FB928002F69CA /* Musikk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Musikk.plist; sourceTree = "<group>"; };
 		1AD6AC2E190FD385002F69CA /* DyrListe.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DyrListe.plist; sourceTree = "<group>"; };
 		1AD6AC30190FD39D002F69CA /* Hva.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Hva.plist; sourceTree = "<group>"; };
-		1AF4E67E18FF22A500D7DB16 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevMobAds.framework; path = "../../Dropbox/appsonite/1_Framworks/revmob-ios-sdk/RevMobAds.framework"; sourceTree = "<group>"; };
 		1AF4E6C61904FC4C00D7DB16 /* btn_feedback_iPad_wt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_feedback_iPad_wt.png; sourceTree = "<group>"; };
 		1AF4E6C81904FC4C00D7DB16 /* btn_om_iPad_wt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_om_iPad_wt.png; sourceTree = "<group>"; };
 		1AF4E6C91904FC4C00D7DB16 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
@@ -467,6 +467,9 @@
 		A411E5BF18A2ACA70074521F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A411E5C118A2ACAC0074521F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A411E5C318A2ACB90074521F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A41A9A971911FB3900F7074E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A41A9A981911FB3900F7074E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A41A9A9A1911FC5000F7074E /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RevMobAds.framework; sourceTree = "<group>"; };
 		A4216E5E18A11D8900C500C4 /* HeadsUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadsUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4216E6118A11D8900C500C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A4216E6318A11D8900C500C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -889,7 +892,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF4E67F18FF22A500D7DB16 /* RevMobAds.framework in Frameworks */,
 				1A81387B18F93A8D00CD7782 /* SystemConfiguration.framework in Frameworks */,
 				A493279918D9F93E00904BD1 /* MessageUI.framework in Frameworks */,
 				A4D8EBB818C87A4A00BF2122 /* Social.framework in Frameworks */,
@@ -898,6 +900,7 @@
 				A411E5C018A2ACA70074521F /* QuartzCore.framework in Frameworks */,
 				1A81387918F9386300CD7782 /* libFlurry_4.4.0.a in Frameworks */,
 				A4E176E318AC0CCF00FAB0CE /* CoreVideo.framework in Frameworks */,
+				A41A9A9B1911FC5000F7074E /* RevMobAds.framework in Frameworks */,
 				A4E176E118AC0CBD00FAB0CE /* OpenGLES.framework in Frameworks */,
 				A4E0E44618AABD1900C0FDE5 /* AudioToolbox.framework in Frameworks */,
 				A4E0E44418AAB73300C0FDE5 /* CoreMotion.framework in Frameworks */,
@@ -1160,6 +1163,7 @@
 		A411E5A718A290BA0074521F /* 3rdParty */ = {
 			isa = PBXGroup;
 			children = (
+				A41A9A961911FB1E00F7074E /* Reachability */,
 				A4D8EBB318C8781600BF2122 /* PopUpMenu */,
 				A4936C7318AC77E900658659 /* GPUImage */,
 				A411E5A818A290D10074521F /* GridCollection */,
@@ -1178,6 +1182,15 @@
 				A4C7D98918C64E4F005963F7 /* Layout */,
 			);
 			name = GridCollection;
+			sourceTree = "<group>";
+		};
+		A41A9A961911FB1E00F7074E /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				A41A9A971911FB3900F7074E /* Reachability.h */,
+				A41A9A981911FB3900F7074E /* Reachability.m */,
+			);
+			name = Reachability;
 			sourceTree = "<group>";
 		};
 		A4216E5518A11D8900C500C4 = {
@@ -1203,7 +1216,7 @@
 		A4216E6018A11D8900C500C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1AF4E67E18FF22A500D7DB16 /* RevMobAds.framework */,
+				A41A9A9A1911FC5000F7074E /* RevMobAds.framework */,
 				1A81387A18F93A8D00CD7782 /* SystemConfiguration.framework */,
 				A493279818D9F93E00904BD1 /* MessageUI.framework */,
 				A4D8EBB718C87A4A00BF2122 /* Social.framework */,
@@ -2152,6 +2165,7 @@
 				A4E38A5F18AC7A1800A9CB30 /* GPUImageHardLightBlendFilter.m in Sources */,
 				A4E38A5E18AC7A1800A9CB30 /* GPUImageExclusionBlendFilter.m in Sources */,
 				A49327A218D9FBF100904BD1 /* NSData+MKBase64.m in Sources */,
+				A41A9A991911FB3900F7074E /* Reachability.m in Sources */,
 				A4E389BA18AC78C700A9CB30 /* GPUImageTwoInputFilter.m in Sources */,
 				A4E38AAE18AC7A4E00A9CB30 /* GPUImageMedianFilter.m in Sources */,
 				A4E38B1718AC7A7C00A9CB30 /* GPUImageZoomBlurFilter.m in Sources */,
@@ -2403,6 +2417,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/robingronvold/Dropbox/appsonite/1_Framworks/revmob-ios-sdk",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HeadsUp/HeadsUp-Prefix.pch";
@@ -2434,6 +2449,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/robingronvold/Dropbox/appsonite/1_Framworks/revmob-ios-sdk",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HeadsUp/HeadsUp-Prefix.pch";

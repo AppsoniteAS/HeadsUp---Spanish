@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A9EED49C-3147-4DF2-82E2-9B9488D23393</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Adivina Que!</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FC4A08CE-C690-48BF-BFA8-DDBC1905ADEA</key>
+		<string>https://github.com/AppsoniteAS/HeadsUp---Spanish.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Adivina Que!.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FC4A08CE-C690-48BF-BFA8-DDBC1905ADEA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AppsoniteAS/HeadsUp---Spanish.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FC4A08CE-C690-48BF-BFA8-DDBC1905ADEA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FC4A08CE-C690-48BF-BFA8-DDBC1905ADEA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HeadsUp---Spanish</string>
+		</dict>
+	</array>
+</dict>
+</plist>
