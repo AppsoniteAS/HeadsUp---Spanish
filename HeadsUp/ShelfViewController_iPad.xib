@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5056" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
     <dependencies>
         <deployment defaultVersion="1536" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
@@ -8,6 +8,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShelfViewController">
             <connections>
                 <outlet property="btnShareSave" destination="6zt-Ae-BtS" id="JxM-wt-ON2"/>
+                <outlet property="btnVideo" destination="lI3-HS-fG1" id="bDR-2h-YEd"/>
                 <outlet property="gridCards" destination="JQd-LL-VIt" id="5Xb-RH-bD1"/>
                 <outlet property="scrllVwResult" destination="9do-ZV-K8J" id="aux-9p-sgS"/>
                 <outlet property="tblVwDetail" destination="CHK-5a-5SG" id="bAp-ih-hml"/>

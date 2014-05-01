@@ -608,9 +608,7 @@
 
 - (IBAction)watchVideo:(id)sender
 {
-    UIButton *btnWatch = (UIButton *)sender;
-    
-    [btnWatch setHidden:YES];
+    [self.btnVideo setHidden:YES];
     [tblVwDetail setHidden:YES];
     [viewVideo setHidden:NO];
     [btnShareSave setHidden:NO];
@@ -621,12 +619,24 @@
 - (IBAction)pickAnotherDeck:(id)sender
 {
     [self.videoPlayer stop];
+    
+    [self.btnVideo setHidden:NO];
+    [tblVwDetail setHidden:NO];
+    [viewVideo setHidden:YES];
+    [btnShareSave setHidden:YES];
+    
     [scrllVwResult setHidden:YES];
 }
 
 - (IBAction)playThisDeckAgain:(id)sender
 {
     [self.videoPlayer stop];
+    
+    [self.btnVideo setHidden:NO];
+    [tblVwDetail setHidden:NO];
+    [viewVideo setHidden:YES];
+    [btnShareSave setHidden:YES];
+    
     [self loadDeck:[NSNumber numberWithInt:currentCardDeckIndex]];
 }
 

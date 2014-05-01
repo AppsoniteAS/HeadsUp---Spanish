@@ -69,6 +69,7 @@
 @property(nonatomic,retain)MPMoviePlayerController *videoPlayer;
 @property (strong, nonatomic) NSArray *arrayProducts;
 @property (strong, nonatomic) NSArray *arrayFetched;
+@property (weak, nonatomic) IBOutlet UIButton *btnVideo;
 
 
 - (IBAction)watchVideo:(id)sender;

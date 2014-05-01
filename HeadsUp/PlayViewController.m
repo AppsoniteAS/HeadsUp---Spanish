@@ -139,6 +139,8 @@ CustomNavPortraitViewController* mainNav = NULL;
     
     NSString *pathToMovie = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/Movie.m4v"];
     unlink([pathToMovie UTF8String]); // If a file already exists, AVAssetWriter won't let you record new frames, so delete the old movie
+    NSError *error = nil;
+    [[NSFileManager defaultManager] removeItemAtPath:pathToMovie error:&error];
     self.movieURL = [NSURL fileURLWithPath:pathToMovie];
     self.movieWriter = [[GPUImageMovieWriter alloc] initWithMovieURL:movieURL size:CGSizeMake(640.0, 480.0)];
     
